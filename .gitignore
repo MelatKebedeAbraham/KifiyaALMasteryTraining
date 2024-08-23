@@ -3,3 +3,10 @@ venv/
 __pycache__/
 .vscode/
 .streamlit/
+
+# Ignore all data files
+data/
+
+# Or, ignore specific types of data files
+data/*.csv
+data/*.xlsx
